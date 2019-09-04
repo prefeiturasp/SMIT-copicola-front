@@ -5,16 +5,22 @@
                 <img class="logo" src="../assets/copi-logo-1.svg" alt="CopiCola Logo, click para ir para página principal">
             </router-link>
             <nav id="nav">
-                <router-link class="nav-link" to="/about">guia</router-link>
-                <router-link class="nav-link" to="/about">agenda</router-link>
-                <router-link class="nav-link" to="/about">quem somos</router-link>
+                <BaseHeaderLink goto="/guias">guias</BaseHeaderLink>
+                <BaseHeaderLink goto="/agenda">agenda</BaseHeaderLink>
+                <BaseHeaderLink goto="/quem-somos">quem somos</BaseHeaderLink>
             </nav>
         </div>
     </header>
 </template>
 
 <script>
+import BaseHeaderLink from '@/components/BaseHeaderLink.vue'
+
 export default {
+    name: "TheMainHeader",
+    components: {
+        BaseHeaderLink
+    }
 }
 </script>
 
@@ -22,21 +28,17 @@ export default {
     header {
         height: 110px;
         background: var(--red);
+        align-content: center;
+        align-items: center;
     }
 
     .inside {
         justify-content: space-between;
-        align-content: center;
+        align-items: center;
     }
 
     .logo {
         max-width: 75px;
         width: auto;
     }
-
-    .nav-link {
-        text-decoration: none;
-    }
-
-
 </style>

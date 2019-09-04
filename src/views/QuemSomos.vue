@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <TheMainHeader/>
-    <h1>This is home like home fellow</h1>
-  </div>
+  <TheMainHeader />
 </template>
 
 <script>
-// @ is an alias to /src
 import TheMainHeader from '@/components/TheMainHeader.vue'
 
 export default {
-  name: 'home',
+  name: 'QuemSomos',
   components: {
     TheMainHeader
   }
 }
 </script>
+
+<style>
+
+</style>
