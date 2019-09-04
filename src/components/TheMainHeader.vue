@@ -1,6 +1,6 @@
 <template>
     <header class="container-fluid">
-        <div class="container inside"> 
+        <div class="row add-fluid-padding inside"> 
             <router-link to="/"> 
                 <img class="logo" src="../assets/copi-logo-1.svg" alt="CopiCola Logo, click para ir para página principal">
             </router-link>
@@ -28,13 +28,12 @@ export default {
     header {
         height: 110px;
         background: var(--red);
-        align-content: center;
-        align-items: center;
     }
 
     .inside {
         justify-content: space-between;
         align-items: center;
+        align-content: center;
     }
 
     .logo {

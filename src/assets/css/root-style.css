@@ -1,0 +1,47 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* css vars */
+:root {
+  /* colors */
+  --red: #bd1751;
+  --green: #899b26;
+  --yellow: #F8CA00;
+  --orange: #F29120;
+  --dark-orange: #DB3F14;
+  --purple: #894494;
+  --dark-purple: #5D1F53;
+  --soft-dark-grey: #707070;
+}
+
+h1, h2, h3, h4 {
+  color: var(--soft-dark-grey);
+}
+
+
+/* layout elements */
+.row {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.add-fluid-padding {
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+.container {
+  display: block;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.container-fluid {
+  display: block;
+}

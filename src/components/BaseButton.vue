@@ -1,5 +1,5 @@
 <template>
-  <a :href="href">
+  <a class="btn" :href="href">
     <slot></slot>
   </a> 
 </template>
@@ -12,7 +12,12 @@ export default {
 
 <style scoped>
   .btn {
-    padding: 10px 20px;
-    background: var(--red);
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: var(--red);
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
   }
 </style>
