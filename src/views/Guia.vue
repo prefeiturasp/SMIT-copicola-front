@@ -44,7 +44,8 @@ export default {
     return {
       guia: {
         titulo: 'Guia'
-      }
+      },
+      jsondata: ""
     }
   }
 }
