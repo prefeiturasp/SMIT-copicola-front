@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="img-url" :alt="name">
+    <img :src="imgUrl" :alt="name">
     <div class="lead"> 
       <h2>{{ name }}</h2>
     </div>
@@ -9,11 +9,14 @@
 
 <script>
 export default {
-  props:['img-url', 'name']
+  props:['imgUrl', 'name']
 }
 </script>
 
 <style scoped>
+  img {
+    width: 100%
+  }
   .card {
     background: var(--soft-dark-grey);
     width: 280px;
