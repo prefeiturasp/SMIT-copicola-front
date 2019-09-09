@@ -8,7 +8,22 @@ const axiosBase = axios.create({
   baseURL: 'http://localhost/wp-json/wp/v2/'
 })
 
-Vue.prototype.$http = axiosBase
+const axiosACF = axios.create({
+  baseURL: 'http://localhost/wp-json/acf/v3/'
+})
+
+axiosBase.interceptors.response.use( (response) => {
+  return response
+}, (error) => {
+  if (error.response.status == 404) {
+    this.$router.push("/*")
+  }
+})
+
+Vue.prototype.$http = {
+  'wp' : axiosBase,
+  'acf' : axiosACF
+}
 
 Vue.config.productionTip = false
 

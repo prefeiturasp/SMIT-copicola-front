@@ -21,6 +21,14 @@ h1, h2, h3, h4 {
   color: var(--soft-dark-grey);
 }
 
+/* root component */
+#app {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 15rem;
+  box-sizing: border-box;
+}
+
 
 /* layout elements */
 .row {
@@ -44,4 +52,12 @@ h1, h2, h3, h4 {
 
 .container-fluid {
   display: block;
+}
+
+.col, .col-flex {
+  width: 100%;
+}
+
+.col-flex {
+  display: flex;
 }

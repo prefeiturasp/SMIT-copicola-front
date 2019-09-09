@@ -12,7 +12,7 @@ import TheMainHeader from '@/components/TheMainHeader.vue'
 export default {
   name: 'home',
   components: {
-    TheMainHeader
+    TheMainHeader,
   }
 }
 </script>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368" height="375" viewBox="0 0 368 375">
+  <defs>
+    <filter id="Retângulo_2026" x="0" y="0" width="368" height="375" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_377" data-name="Grupo 377" transform="translate(-1539 -311)">
+    <g transform="matrix(1, 0, 0, 1, 1539, 311)" filter="url(#Retângulo_2026)">
+      <rect id="Retângulo_2026-2" data-name="Retângulo 2026" width="350" height="357" transform="translate(9 6)" fill="#bd1751"/>
+    </g>
+    <path id="Caminho_1562" data-name="Caminho 1562" d="M14.872,0H334.128A14.937,14.937,0,0,1,349,15V340.064a14.937,14.937,0,0,1-14.872,15H14.872A14.936,14.936,0,0,1,0,340.064V15A14.936,14.936,0,0,1,14.872,0Z" transform="translate(1548 317.084)" fill="#bd1751"/>
+    <rect id="Retângulo_1952" data-name="Retângulo 1952" width="309.221" height="249.541" transform="translate(1587.771 344.976)" fill="#bd1751"/>
+    <rect id="Retângulo_2009" data-name="Retângulo 2009" width="125" height="242" transform="translate(1773 352)" fill="#fff"/>
+    <g id="Grupo_328" data-name="Grupo 328" transform="translate(1709.376 471.462)">
+      <rect id="Retângulo_1953" data-name="Retângulo 1953" width="187.719" height="4.03" transform="translate(0 118.508)" fill="#889a26"/>
+      <rect id="Retângulo_1954" data-name="Retângulo 1954" width="187.719" height="4.03" transform="translate(0 84.637)" fill="#889a26"/>
+      <rect id="Retângulo_1955" data-name="Retângulo 1955" width="187.719" height="4.03" transform="translate(0 50.793)" fill="#889a26"/>
+      <rect id="Retângulo_1957" data-name="Retângulo 1957" width="187.719" height="4.03" transform="translate(0 101.585)" fill="#889a26"/>
+      <rect id="Retângulo_1958" data-name="Retângulo 1958" width="187.719" height="4.03" transform="translate(0 67.715)" fill="#889a26"/>
+      <rect id="Retângulo_1959" data-name="Retângulo 1959" width="187.719" height="4.03" transform="translate(0 33.845)" fill="#889a26"/>
+      <rect id="Retângulo_1960" data-name="Retângulo 1960" width="187.719" height="4.03" fill="#889a26"/>
+    </g>
+    <g id="Grupo_329" data-name="Grupo 329" transform="translate(1576.946 471.462)">
+      <rect id="Retângulo_1961" data-name="Retângulo 1961" width="135.43" height="4.03" transform="translate(0 118.508)" fill="#889a26"/>
+      <rect id="Retângulo_1962" data-name="Retângulo 1962" width="135.43" height="4.03" transform="translate(0 84.637)" fill="#889a26"/>
+      <rect id="Retângulo_1963" data-name="Retângulo 1963" width="135.43" height="4.03" transform="translate(0 50.793)" fill="#889a26"/>
+      <rect id="Retângulo_1964" data-name="Retângulo 1964" width="135.43" height="4.03" transform="translate(0 16.922)" fill="#889a26"/>
+      <rect id="Retângulo_1965" data-name="Retângulo 1965" width="135.43" height="4.03" transform="translate(0 101.586)" fill="#889a26"/>
+      <rect id="Retângulo_1966" data-name="Retângulo 1966" width="135.43" height="4.03" transform="translate(0 67.715)" fill="#889a26"/>
+      <rect id="Retângulo_1967" data-name="Retângulo 1967" width="135.43" height="4.03" transform="translate(0 33.845)" fill="#889a26"/>
+      <rect id="Retângulo_1968" data-name="Retângulo 1968" width="135.43" height="4.03" fill="#889a26"/>
+    </g>
+    <rect id="Retângulo_1969" data-name="Retângulo 1969" width="29.53" height="4.03" transform="translate(1548.32 590.228)" fill="#889a26"/>
+    <rect id="Retângulo_1970" data-name="Retângulo 1970" width="29.53" height="4.03" transform="translate(1548.32 556.099)" fill="#889a26"/>
+    <rect id="Retângulo_1971" data-name="Retângulo 1971" width="29.53" height="4.03" transform="translate(1548.32 539.57)" fill="#889a26"/>
+    <rect id="Retângulo_1972" data-name="Retângulo 1972" width="29.53" height="4.03" transform="translate(1548.32 504.331)" fill="#889a26"/>
+    <rect id="Retângulo_1973" data-name="Retângulo 1973" width="29.53" height="4.03" transform="translate(1548.32 573.048)" fill="#889a26"/>
+    <rect id="Retângulo_1975" data-name="Retângulo 1975" width="29.53" height="4.03" transform="translate(1548.32 523.439)" fill="#889a26"/>
+    <rect id="Retângulo_1976" data-name="Retângulo 1976" width="29.53" height="4.03" transform="translate(1548.32 487.223)" fill="#889a26"/>
+    <g id="Grupo_330" data-name="Grupo 330" transform="translate(1761.665 469.968)">
+      <rect id="Retângulo_1977" data-name="Retângulo 1977" width="135.43" height="4.03" fill="#889a26"/>
+    </g>
+    <g id="Grupo_331" data-name="Grupo 331" transform="translate(1576.946 469.968)">
+      <rect id="Retângulo_1978" data-name="Retângulo 1978" width="135.43" height="4.03" fill="#889a26"/>
+    </g>
+    <rect id="Retângulo_1979" data-name="Retângulo 1979" width="134.474" height="134.474" transform="translate(1577.411 457.511)" fill="none"/>
+    <g id="Grupo_332" data-name="Grupo 332" transform="translate(1761.665 366.445)">
+      <path id="Caminho_1537" data-name="Caminho 1537" d="M135.43,0V4.03H0Z" transform="translate(0 120.534)" fill="#889a26"/>
+      <rect id="Retângulo_1981" data-name="Retângulo 1981" width="135.43" height="4.03" transform="translate(0 84.663)" fill="#889a26"/>
+      <rect id="Retângulo_1982" data-name="Retângulo 1982" width="135.43" height="4.03" transform="translate(0 50.793)" fill="#889a26"/>
+      <rect id="Retângulo_1983" data-name="Retângulo 1983" width="135.43" height="4.03" transform="translate(0 13.948)" fill="#889a26"/>
+      <rect id="Retângulo_1985" data-name="Retângulo 1985" width="135.43" height="4.03" transform="translate(0 67.741)" fill="#889a26"/>
+      <rect id="Retângulo_1986" data-name="Retângulo 1986" width="135.43" height="4.03" transform="translate(0 33.87)" fill="#889a26"/>
+      <rect id="Retângulo_1987" data-name="Retângulo 1987" width="135.43" height="4.03" fill="#889a26"/>
+    </g>
+    <g id="Grupo_333" data-name="Grupo 333" transform="translate(1576.946 366.445)">
+      <rect id="Retângulo_1988" data-name="Retângulo 1988" width="194.208" height="4.03" transform="translate(0 118.534)" fill="#889a26"/>
+      <rect id="Retângulo_1989" data-name="Retângulo 1989" width="194.208" height="4.03" transform="translate(0 84.663)" fill="#889a26"/>
+      <rect id="Retângulo_1990" data-name="Retângulo 1990" width="194.208" height="4.03" transform="translate(0 50.793)" fill="#889a26"/>
+      <rect id="Retângulo_1991" data-name="Retângulo 1991" width="194.208" height="4.03" transform="translate(0 16.948)" fill="#889a26"/>
+      <rect id="Retângulo_1992" data-name="Retângulo 1992" width="194.208" height="4.03" transform="translate(0 101.586)" fill="#889a26"/>
+      <rect id="Retângulo_1993" data-name="Retângulo 1993" width="194.208" height="4.03" transform="translate(0 67.741)" fill="#889a26"/>
+      <rect id="Retângulo_1994" data-name="Retângulo 1994" width="194.208" height="4.03" transform="translate(0 33.87)" fill="#889a26"/>
+      <rect id="Retângulo_1995" data-name="Retângulo 1995" width="194.208" height="4.03" fill="#889a26"/>
+    </g>
+    <rect id="Retângulo_1996" data-name="Retângulo 1996" width="29.53" height="4.03" transform="translate(1548.32 469.968)" fill="#889a26"/>
+    <rect id="Retângulo_1997" data-name="Retângulo 1997" width="29.53" height="4.03" transform="translate(1548.32 439.729)" fill="#889a26"/>
+    <rect id="Retângulo_1998" data-name="Retângulo 1998" width="29.53" height="4.03" transform="translate(1548.32 409.49)" fill="#889a26"/>
+    <rect id="Retângulo_1999" data-name="Retângulo 1999" width="29.53" height="4.03" transform="translate(1548.32 379.393)" fill="#889a26"/>
+    <rect id="Retângulo_2000" data-name="Retângulo 2000" width="29.53" height="4.03" transform="translate(1548.32 454.837)" fill="#889a26"/>
+    <rect id="Retângulo_2001" data-name="Retângulo 2001" width="29.53" height="4.03" transform="translate(1548.32 424.621)" fill="#889a26"/>
+    <rect id="Retângulo_2002" data-name="Retângulo 2002" width="29.53" height="4.03" transform="translate(1548.32 394.382)" fill="#889a26"/>
+    <rect id="Retângulo_2003" data-name="Retângulo 2003" width="29.53" height="4.03" transform="translate(1548.32 366.445)" fill="#889a26"/>
+    <g id="Grupo_334" data-name="Grupo 334" transform="translate(1708.001 350.478)">
+      <rect id="Retângulo_2004" data-name="Retângulo 2004" width="189.094" height="4.03" fill="#889a26"/>
+    </g>
+    <g id="Grupo_335" data-name="Grupo 335" transform="translate(1576.946 350.478)">
+      <rect id="Retângulo_2005" data-name="Retângulo 2005" width="135.43" height="4.03" fill="#889a26"/>
+    </g>
+    <rect id="Retângulo_2006" data-name="Retângulo 2006" width="29.53" height="4.03" transform="translate(1548.32 350.478)" fill="#889a26"/>
+    <rect id="Retângulo_2007" data-name="Retângulo 2007" width="193.474" height="134.474" transform="translate(1577.411 352.494)" fill="none"/>
+    <rect id="Retângulo_2008" data-name="Retângulo 2008" width="297.776" height="213.922" transform="translate(1572.322 379.595)" fill="#889a26"/>
+    <g id="Grupo_336" data-name="Grupo 336" transform="translate(1661.959 410.365)">
+      <path id="Caminho_1535" data-name="Caminho 1535" d="M328.125,345.223c-2.274,6.175-4.831,12.375-5.658,18.938-.8,6.175.62,10.7,3.591,16.018,3,5.348,8.242,13.176,14.6,16.793l-.723,82.958,14.416.129.723-82.881c6.485-3.488,11.936-11.29,15.062-16.612,3.074-5.27,4.547-9.766,3.875-15.941-.723-6.588-3.178-12.84-5.348-19.041-1.705-4.883-5.09-17.026-11.549-17.827l3.54,35.6-4.805-.052-3.539-35.756-3.772-.026-3.772-.026-4.16,35.679-4.805-.052,4.16-35.55C333.524,328.275,329.907,340.366,328.125,345.223Z" transform="translate(-322.246 -324.683)" fill="#bc1751"/>
+      <path id="Caminho_1536" data-name="Caminho 1536" d="M601.7,472.594l.7-81.641c12.014-3.72,20.979-16.845,21.108-32.553.155-18.679-12.143-41.647-27.592-41.8-15.45-.129-28.161,22.606-28.316,41.311-.129,15.631,8.526,28.858,20.384,32.837l-.7,81.744Z" transform="translate(-504.207 -316.598)" fill="#bc1751"/>
+    </g>
+  </g>
+</svg>

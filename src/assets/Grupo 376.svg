@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="371" height="374.148" viewBox="0 0 371 374.148">
+  <defs>
+    <filter id="Retângulo_2023" x="0" y="0" width="366" height="372" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_23" x="3.074" y="2.084" width="367.926" height="372.064" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_376" data-name="Grupo 376" transform="translate(-381 -311)">
+    <g transform="matrix(1, 0, 0, 1, 381, 311)" filter="url(#Retângulo_2023)">
+      <rect id="Retângulo_2023-2" data-name="Retângulo 2023" width="348" height="354" transform="translate(9 6)" fill="#5d1f53"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 381, 311)" filter="url(#Caminho_23)">
+      <path id="Caminho_23-2" data-name="Caminho 23" d="M15.04,0H334.886a15,15,0,0,1,15.04,14.958V339.106a15,15,0,0,1-15.04,14.958H15.04A15.1,15.1,0,0,1,.194,341.516,14.076,14.076,0,0,1,0,339.106V14.958A15,15,0,0,1,15.04,0Z" transform="translate(9.07 6.08)" fill="#5d1f53"/>
+    </g>
+    <path id="Caminho_1427" data-name="Caminho 1427" d="M178.261,371.633l.03.061c-.03-.121-.061-.242-.091-.394Z" transform="translate(261.324 56.282)" fill="#e87f05"/>
+    <path id="Caminho_1428" data-name="Caminho 1428" d="M178.261,371.633l.03.061c-.03-.121-.061-.242-.091-.394Z" transform="translate(261.324 56.282)" fill="#e87f05"/>
+    <path id="Caminho_1429" data-name="Caminho 1429" d="M292.991,6.463l.03.061c-.03-.151-.091-.3-.121-.424Z" transform="translate(181.975 338.813)" fill="#e87f05"/>
+    <rect id="Retângulo_1833" data-name="Retângulo 1833" width="10.928" height="246.468" transform="translate(726.57 343.279)" fill="#5d1f53"/>
+    <rect id="Retângulo_1834" data-name="Retângulo 1834" width="255.43" height="246.468" transform="translate(471.14 343.279)" fill="#5d1f53"/>
+    <rect id="Retângulo_1925" data-name="Retângulo 1925" width="76" height="247" transform="translate(664 343)" fill="#fff"/>
+    <g id="Grupo_221" data-name="Grupo 221" transform="translate(598.352 343.248)">
+      <rect id="Retângulo_1835" data-name="Retângulo 1835" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1836" data-name="Retângulo 1836" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_222" data-name="Grupo 222" transform="translate(643.159 343.248)">
+      <rect id="Retângulo_1837" data-name="Retângulo 1837" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1838" data-name="Retângulo 1838" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_223" data-name="Grupo 223" transform="translate(658.104 343.248)">
+      <rect id="Retângulo_1839" data-name="Retângulo 1839" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1840" data-name="Retângulo 1840" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_224" data-name="Grupo 224" transform="translate(688.398 343.248)">
+      <rect id="Retângulo_1841" data-name="Retângulo 1841" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1842" data-name="Retângulo 1842" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_225" data-name="Grupo 225" transform="translate(703.231 343.248)">
+      <rect id="Retângulo_1843" data-name="Retângulo 1843" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1844" data-name="Retângulo 1844" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_226" data-name="Grupo 226" transform="translate(732.866 343.248)">
+      <path id="Caminho_1430" data-name="Caminho 1430" d="M1143.3.6h-4.9V.63h4.9V167.153h0Z" transform="translate(-1138.4 -0.6)" fill="#da3f14"/>
+      <rect id="Retângulo_1845" data-name="Retângulo 1845" width="4.874" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_227" data-name="Grupo 227" transform="translate(568.492 343.248)">
+      <rect id="Retângulo_1846" data-name="Retângulo 1846" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1847" data-name="Retângulo 1847" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_228" data-name="Grupo 228" transform="translate(583.437 343.248)">
+      <rect id="Retângulo_1848" data-name="Retângulo 1848" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1849" data-name="Retângulo 1849" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_229" data-name="Grupo 229" transform="translate(628.244 343.248)">
+      <rect id="Retângulo_1850" data-name="Retângulo 1850" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1851" data-name="Retângulo 1851" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_230" data-name="Grupo 230" transform="translate(613.298 343.248)">
+      <rect id="Retângulo_1852" data-name="Retângulo 1852" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1853" data-name="Retângulo 1853" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_231" data-name="Grupo 231" transform="translate(673.05 343.248)">
+      <rect id="Retângulo_1854" data-name="Retângulo 1854" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1855" data-name="Retângulo 1855" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_232" data-name="Grupo 232" transform="translate(718.064 343.248)">
+      <rect id="Retângulo_1856" data-name="Retângulo 1856" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1857" data-name="Retângulo 1857" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_234" data-name="Grupo 234" transform="translate(554.705 343.248)">
+      <g id="Grupo_233" data-name="Grupo 233">
+        <rect id="Retângulo_1858" data-name="Retângulo 1858" width="4.632" height="0.061" fill="#da3f14"/>
+        <rect id="Retângulo_1859" data-name="Retângulo 1859" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+      </g>
+    </g>
+    <g id="Grupo_235" data-name="Grupo 235" transform="translate(558.443 343.248)">
+      <path id="Caminho_1431" data-name="Caminho 1431" d="M753.757.6H562.2V.63H741.225V167.153h12.532Z" transform="translate(-562.2 -0.6)" fill="none"/>
+    </g>
+    <g id="Grupo_236" data-name="Grupo 236" transform="translate(598.352 429.064)">
+      <rect id="Retângulo_1860" data-name="Retângulo 1860" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1861" data-name="Retângulo 1861" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_237" data-name="Grupo 237" transform="translate(643.159 429.064)">
+      <rect id="Retângulo_1862" data-name="Retângulo 1862" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1863" data-name="Retângulo 1863" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_238" data-name="Grupo 238" transform="translate(658.104 429.064)">
+      <rect id="Retângulo_1864" data-name="Retângulo 1864" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1865" data-name="Retângulo 1865" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_239" data-name="Grupo 239" transform="translate(688.398 429.064)">
+      <rect id="Retângulo_1866" data-name="Retângulo 1866" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1867" data-name="Retângulo 1867" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_240" data-name="Grupo 240" transform="translate(703.231 429.064)">
+      <rect id="Retângulo_1868" data-name="Retângulo 1868" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1869" data-name="Retângulo 1869" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_241" data-name="Grupo 241" transform="translate(732.866 429.064)">
+      <path id="Caminho_1432" data-name="Caminho 1432" d="M1143.3,550.8V704.7h-4.9v6.206h4.9Z" transform="translate(-1138.4 -550.8)" fill="#da3f14"/>
+      <rect id="Retângulo_1870" data-name="Retângulo 1870" width="4.874" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_242" data-name="Grupo 242" transform="translate(568.492 429.064)">
+      <rect id="Retângulo_1871" data-name="Retângulo 1871" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1872" data-name="Retângulo 1872" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_243" data-name="Grupo 243" transform="translate(583.437 429.064)">
+      <rect id="Retângulo_1873" data-name="Retângulo 1873" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1874" data-name="Retângulo 1874" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_244" data-name="Grupo 244" transform="translate(628.244 429.064)">
+      <rect id="Retângulo_1875" data-name="Retângulo 1875" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1876" data-name="Retângulo 1876" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_245" data-name="Grupo 245" transform="translate(613.298 429.064)">
+      <rect id="Retângulo_1877" data-name="Retângulo 1877" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1878" data-name="Retângulo 1878" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_246" data-name="Grupo 246" transform="translate(673.05 429.064)">
+      <rect id="Retângulo_1879" data-name="Retângulo 1879" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1880" data-name="Retângulo 1880" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_247" data-name="Grupo 247" transform="translate(718.064 429.064)">
+      <rect id="Retângulo_1881" data-name="Retângulo 1881" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1882" data-name="Retângulo 1882" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_249" data-name="Grupo 249" transform="translate(554.705 429.064)">
+      <g id="Grupo_248" data-name="Grupo 248">
+        <rect id="Retângulo_1883" data-name="Retângulo 1883" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+        <rect id="Retângulo_1884" data-name="Retângulo 1884" width="4.632" height="153.9" fill="#da3f14"/>
+      </g>
+    </g>
+    <g id="Grupo_250" data-name="Grupo 250" transform="translate(558.443 429.064)">
+      <path id="Caminho_1433" data-name="Caminho 1433" d="M741.225,550.8V704.7H562.2v6.206H753.757V550.8Z" transform="translate(-562.2 -550.8)" fill="none"/>
+      <rect id="Retângulo_1885" data-name="Retângulo 1885" width="179.025" height="153.9" fill="none"/>
+    </g>
+    <g id="Grupo_251" data-name="Grupo 251" transform="translate(404.924 343.248)">
+      <rect id="Retângulo_1886" data-name="Retângulo 1886" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1887" data-name="Retângulo 1887" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_252" data-name="Grupo 252" transform="translate(449.392 343.248)">
+      <rect id="Retângulo_1888" data-name="Retângulo 1888" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1889" data-name="Retângulo 1889" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_253" data-name="Grupo 253" transform="translate(464.787 343.248)">
+      <rect id="Retângulo_1890" data-name="Retângulo 1890" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1891" data-name="Retângulo 1891" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_254" data-name="Grupo 254" transform="translate(494.648 343.248)">
+      <rect id="Retângulo_1892" data-name="Retângulo 1892" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1893" data-name="Retângulo 1893" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_255" data-name="Grupo 255" transform="translate(509.594 343.248)">
+      <rect id="Retângulo_1894" data-name="Retângulo 1894" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1895" data-name="Retângulo 1895" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_256" data-name="Grupo 256" transform="translate(539.455 343.248)">
+      <rect id="Retângulo_1896" data-name="Retângulo 1896" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1897" data-name="Retângulo 1897" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_257" data-name="Grupo 257" transform="translate(554.4 343.248)">
+      <rect id="Retângulo_1898" data-name="Retângulo 1898" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1899" data-name="Retângulo 1899" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_258" data-name="Grupo 258" transform="translate(390.121 343.248)">
+      <rect id="Retângulo_1900" data-name="Retângulo 1900" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1901" data-name="Retângulo 1901" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_259" data-name="Grupo 259" transform="translate(434.589 343.248)">
+      <rect id="Retângulo_1902" data-name="Retângulo 1902" width="4.632" height="0.061" transform="translate(0)" fill="#da3f14"/>
+      <rect id="Retângulo_1903" data-name="Retângulo 1903" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_260" data-name="Grupo 260" transform="translate(419.757 343.248)">
+      <rect id="Retângulo_1904" data-name="Retângulo 1904" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1905" data-name="Retângulo 1905" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_261" data-name="Grupo 261" transform="translate(479.733 343.248)">
+      <rect id="Retângulo_1906" data-name="Retângulo 1906" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1907" data-name="Retângulo 1907" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_262" data-name="Grupo 262" transform="translate(524.539 343.248)">
+      <rect id="Retângulo_1908" data-name="Retângulo 1908" width="4.632" height="0.061" fill="#da3f14"/>
+      <rect id="Retângulo_1909" data-name="Retângulo 1909" width="4.632" height="166.523" transform="translate(0 0.03)" fill="#da3f14"/>
+    </g>
+    <rect id="Retângulo_1910" data-name="Retângulo 1910" width="4.632" height="160.105" transform="translate(404.924 429.064)" fill="#da3f14"/>
+    <g id="Grupo_263" data-name="Grupo 263" transform="translate(449.392 429.064)">
+      <rect id="Retângulo_1911" data-name="Retângulo 1911" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_264" data-name="Grupo 264" transform="translate(464.787 429.064)">
+      <rect id="Retângulo_1912" data-name="Retângulo 1912" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_265" data-name="Grupo 265" transform="translate(494.648 429.064)">
+      <rect id="Retângulo_1913" data-name="Retângulo 1913" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_266" data-name="Grupo 266" transform="translate(509.594 429.064)">
+      <rect id="Retângulo_1914" data-name="Retângulo 1914" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_267" data-name="Grupo 267" transform="translate(539.455 429.064)">
+      <rect id="Retângulo_1915" data-name="Retângulo 1915" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1916" data-name="Retângulo 1916" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_268" data-name="Grupo 268" transform="translate(554.4 429.064)">
+      <rect id="Retângulo_1917" data-name="Retângulo 1917" width="4.632" height="6.206" transform="translate(0 153.9)" fill="#da3f14"/>
+      <rect id="Retângulo_1918" data-name="Retângulo 1918" width="4.632" height="153.9" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_269" data-name="Grupo 269" transform="translate(390.121 429.064)">
+      <rect id="Retângulo_1919" data-name="Retângulo 1919" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <rect id="Retângulo_1920" data-name="Retângulo 1920" width="4.632" height="160.105" transform="translate(434.589 429.064)" fill="#da3f14"/>
+    <rect id="Retângulo_1921" data-name="Retângulo 1921" width="4.632" height="160.105" transform="translate(419.757 429.064)" fill="#da3f14"/>
+    <g id="Grupo_270" data-name="Grupo 270" transform="translate(479.733 429.064)">
+      <rect id="Retângulo_1922" data-name="Retângulo 1922" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <g id="Grupo_271" data-name="Grupo 271" transform="translate(524.539 429.064)">
+      <rect id="Retângulo_1923" data-name="Retângulo 1923" width="4.632" height="160.105" fill="#da3f14"/>
+    </g>
+    <path id="Caminho_1434" data-name="Caminho 1434" d="M292.991,6.463l.03.061c-.03-.151-.091-.3-.121-.424Z" transform="translate(181.975 338.813)" fill="#e87f05"/>
+    <rect id="Retângulo_1924" data-name="Retângulo 1924" width="228.43" height="205.727" transform="translate(452.744 383.369)" fill="#da3f14"/>
+    <g id="Grupo_272" data-name="Grupo 272" transform="translate(487.74 412.829)">
+      <path id="Caminho_1435" data-name="Caminho 1435" d="M522.376,478.243l5.771-5.771-12.18-12.18-5.771,5.771a47.1,47.1,0,0,0-18.11-7.5V450.4H474.853v8.164a47.1,47.1,0,0,0-18.11,7.5l-5.771-5.771-12.18,12.18,5.771,5.771a47.1,47.1,0,0,0-7.5,18.11H428.9v17.232h8.164a47.1,47.1,0,0,0,7.5,18.11l-5.771,5.771,12.18,12.18,5.771-5.771a47.1,47.1,0,0,0,18.11,7.5v8.164h17.232v-8.164a47.1,47.1,0,0,0,18.11-7.5l5.771,5.771,12.18-12.18-5.771-5.771a47.1,47.1,0,0,0,7.5-18.11h8.164V496.353h-8.164A47.1,47.1,0,0,0,522.376,478.243Zm-38.933,61.59a34.864,34.864,0,1,1,34.864-34.864A34.865,34.865,0,0,1,483.443,539.833Z" transform="translate(-428.9 -400.963)" fill="#5d1f53"/>
+      <path id="Caminho_1436" data-name="Caminho 1436" d="M812.737,295.455l5.133-2.181-5.425-12.712-5.132,2.207a31.811,31.811,0,0,0-8.084-7.925l2.074-5.186L788.484,264.5l-2.074,5.186a31.648,31.648,0,0,0-11.3.133l-2.207-5.133-12.712,5.425,2.181,5.133a31.805,31.805,0,0,0-7.925,8.084l-5.186-2.074L744.1,294.1l5.186,2.074a31.647,31.647,0,0,0,.133,11.3l-5.132,2.207,5.425,12.712,5.133-2.181a31.809,31.809,0,0,0,8.084,7.925l-2.1,5.106,12.845,5.159,2.074-5.186a31.648,31.648,0,0,0,11.3-.133l2.181,5.133,12.712-5.425-2.181-5.133a31.808,31.808,0,0,0,7.925-8.084l5.186,2.074,5.159-12.818-5.186-2.074A31.655,31.655,0,0,0,812.737,295.455ZM789.548,321.3a21.614,21.614,0,1,1,11.382-28.348A21.669,21.669,0,0,1,789.548,321.3Z" transform="translate(-660.278 -264.5)" fill="#5d1f53"/>
+    </g>
+  </g>
+</svg>

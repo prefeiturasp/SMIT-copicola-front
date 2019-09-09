@@ -28,17 +28,28 @@ export default new Router({
     {
       path: '/guias',
       name: 'Guias',
-      component: () => import('./views/Guias.vue')
+      component: () => import('./views/Guias.vue'),
+      meta: {
+        breadcrumb: [
+          { name: 'Guias', link: '/guias' }
+        ]
+      }
+    },
+    {
+      path: '/guias/:guia_slug',
+      name: 'Guia',
+      component: () => import('./views/Guia.vue'),
+      meta: {
+        breadcrumb: [
+          { name: 'Guias', link: '/guias' },
+          { name: 'Guia', link: '/guias/:guia_slug'}
+        ]
+      }
     },
     {
       path: '/agenda',
       name: 'Agenda',
       component: () => import('./views/Agenda.vue')
-    },
-    {
-      path: '/guias/:guia_slug',
-      name: 'Guia',
-      component: () => import('./views/Guia.vue')
     }
   ]
 })

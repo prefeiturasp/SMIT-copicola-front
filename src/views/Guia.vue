@@ -1,26 +1,22 @@
 <template>
   <div>
     <TheMainHeader/>
-    <div class="container">
+    <div class="container wrapper">
       <div class="row">
         <div >
-          <h3>BreadCrumb HERE</h3>
-          <h1>{{ guia.titulo }}</h1>
+          <TheBreadCrumb/>
+          <h1 class="title">{{ guia.title.rendered }}</h1>
         </div>
       </div>
       <article class="row content">
         <div class="main-content">    
-          <TheGuiaVideo class="video">
-            <source src="../assets/video.mp4">
+          <TheGuiaVideo class="video" controls v-if="guia.acf['guia-video-destaque']">
+            <source :src="guia.acf['guia-video-destaque'].url">
           </TheGuiaVideo>
         </div>
         <aside class="desc-guia">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Labore nesciunt eaque suscipit! Quod suscipit inventore esse quibusdam, earum quisquam dignissimos. 
-            Ea vero autem eligendi assumenda? Cumque exercitationem eum rem soluta?
-          </p>
-          <h2>MATERIAIS PARA DOWNLOAD</h2>
+          <p v-html="guia.content.rendered"></p>
+          <h2 class="title">MATERIAIS PARA DOWNLOAD</h2>
           <BaseButton>download</BaseButton>
         </aside>
       </article>
@@ -30,6 +26,7 @@
 
 <script>
 import TheMainHeader from '@/components/TheMainHeader.vue'
+import TheBreadCrumb from '@/components/TheBreadCrumb.vue'
 import TheGuiaVideo from '@/components/TheGuiaVideo.vue'
 import BaseButton from '@/components/BaseButton.vue'
 
@@ -37,21 +34,45 @@ export default {
   name: 'Guia',
   components: {
     TheMainHeader,
+    TheBreadCrumb,
     TheGuiaVideo,
     BaseButton
   },
   data: function () {
     return {
-      guia: {
-        titulo: 'Guia'
-      },
-      jsondata: ""
+      guia: {},
+      error: ""
     }
+  },
+  methods: {
+    loadPost: function(post_slug) {
+      /* load wp post */
+      this.$http.wp.get('guias?slug=' + post_slug).then( (response) => {
+        if(response.data.length != 0){
+          this.guia = response.data[0]
+          /* fill breadcrumb */
+          this.fillBreadcrumb(this.guia.title.rendered)
+        } else {
+          this.$router.replace("/*")
+        }
+        
+      }).catch( (e) => {
+        this.error = e.toString()
+      })
+    },
+
+    fillBreadcrumb: function(name) {
+      this.$route.meta.breadcrumb[1].name = name
+      this.$route.meta.breadcrumb[1].link = '/guias/' + this.$route.params.guia_slug
+    }
+  },
+  mounted() {
+    this.loadPost(this.$route.params.guia_slug)    
   }
 }
 </script>
 
-<style lang="css" scoped>
+<style scoped>
   .content {
     justify-content: space-between
   }
@@ -66,5 +87,14 @@ export default {
 
   .video {
     width: 100%;
+  }
+
+  .title {
+    text-transform: uppercase;
+    margin: 1.2rem 0;
+  }
+
+  .wrapper {
+    margin-bottom: 5rem;
   }
 </style>

@@ -2,27 +2,29 @@
     <div>
         <TheMainHeader/>
         <section class="container">
-          <h1>Guias Page</h1>
-          <GuiasLoading v-if="isLoading" :error="error"/>
-          <div class="row cards" v-if="guias.length > 0">
+          <TheBreadCrumb/>
+          <GuiasLoading  class="main-content" v-if="isLoading" :error="error"/>
+          <div class="row cards main-content" v-if="guias.length > 0">
             <router-link class="guia-card" v-for="guia in guias" :key="guia.id" :to="'/guias/' + guia.slug">
               <GuiaCard :name="guia.title.rendered"/>
             </router-link>
           </div>
         </section>
-        
     </div>
 </template>
 
 <script>
 import TheMainHeader from '@/components/TheMainHeader.vue'
+import TheBreadCrumb from '@/components/TheBreadCrumb.vue'
 import GuiaCard from '@/components/GuiaCard.vue'
 import GuiasLoading from '@/components/GuiasLoading.vue'
 
 export default { 
   name: 'guias',
+
   components: {
       TheMainHeader,
+      TheBreadCrumb,
       GuiasLoading,
       GuiaCard
   },
@@ -38,7 +40,7 @@ export default {
       this.isLoading = true
       this.error = ""
 
-      this.$http.get('guias').then( (response) => {
+      this.$http.wp.get('guias').then( (response) => {
         this.guias = response.data
         this.isLoading = false
       }).catch((e) => {
@@ -62,5 +64,9 @@ export default {
 
 .cards {
   flex-wrap: wrap;
+}
+
+.main-content {
+  margin-top: 0.8rem;
 }
 </style>
