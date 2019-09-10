@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
   .btn {
+    text-decoration: none;
     text-align: center;
     display: inline-block;
     padding: 10px 50px;

@@ -50,6 +50,27 @@ export default new Router({
       path: '/agenda',
       name: 'Agenda',
       component: () => import('./views/Agenda.vue')
+    },
+    {
+      path: '/novidades',
+      name: 'Novidades',
+      component: () => import('./views/Novidades.vue'),
+      meta: {
+        breadcrumb: [
+          { name: 'Novidades', link: '/novidades' }
+        ]
+      }
+    },
+    {
+      path: '/novidades/:novidade_slug',
+      name: 'Novidade',
+      component: () => import('./views/Novidade.vue'),
+      meta: {
+        breadcrumb: [
+          { name: 'Novidades', link: '/novidades' },
+          { name: 'Novidade', link: '/novidades/:novidade_slug'}
+        ]
+      }
     }
   ]
 })

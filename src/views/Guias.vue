@@ -1,16 +1,16 @@
 <template>
-    <div>
-        <TheMainHeader/>
-        <section class="container">
-          <TheBreadCrumb/>
-          <GuiasLoading  class="main-content" v-if="isLoading" :error="error"/>
-          <div class="row cards main-content" v-if="guias.length > 0">
-            <router-link class="guia-card" v-for="(guia, index) in guias" :key="index" :to="'/guias/' + guia.slug">
-              <GuiaCard :name="guia.title.rendered" :img-url="featured_images[index]"/>
-            </router-link>
-          </div>
-        </section>
-    </div>
+  <div>
+    <TheMainHeader/>
+    <section class="container">
+      <TheBreadCrumb/>
+      <GuiasLoading  class="main-content" v-if="isLoading" :error="error"/>
+      <div class="row cards main-content" v-if="guias.length > 0">
+        <router-link class="guia-card" v-for="(guia, index) in guias" :key="index" :to="'/guias/' + guia.slug">
+          <GuiaCard :name="guia.title.rendered" :img-url="featured_images[index]"/>
+        </router-link>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>

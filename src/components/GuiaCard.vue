@@ -17,6 +17,7 @@ export default {
   img {
     width: 100%
   }
+  
   .card {
     background: var(--soft-dark-grey);
     width: 280px;
