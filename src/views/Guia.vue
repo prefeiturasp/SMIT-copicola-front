@@ -16,8 +16,13 @@
         </div>
         <aside class="desc-guia">
           <p v-html="guia.content.rendered"></p>
-          <h2 class="title">MATERIAIS PARA DOWNLOAD</h2>
-          <BaseButton>download</BaseButton>
+          <section id="repo">
+            <h2 class="title">MATERIAIS PARA DOWNLOAD</h2>
+            <div class="row download-file" v-for="file in repositorio" :key="file.ID">
+              <h3>{{ file["guia-nome-do-arquivo"] }}</h3>
+              <BaseButton :href="file['guia-arquivo'].url">baixar</BaseButton>
+            </div>
+          </section>
         </aside>
       </article>
     </div>
@@ -41,6 +46,7 @@ export default {
   data: function () {
     return {
       guia: {},
+      repositorio: [],
       error: ""
     }
   },
@@ -50,6 +56,7 @@ export default {
       this.$http.wp.get('guias?slug=' + post_slug).then( (response) => {
         if(response.data.length != 0){
           this.guia = response.data[0]
+          this.repositorio = response.data[0].acf["guia-repositorio"]
           /* fill breadcrumb */
           this.fillBreadcrumb(this.guia.title.rendered)
         } else {
@@ -96,5 +103,19 @@ export default {
 
   .wrapper {
     margin-bottom: 5rem;
+  }
+
+  .download-file {
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+  }
+
+  .download-file h3{
+    text-transform: uppercase;
+    font-weight: 400;
   }
 </style>
