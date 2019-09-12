@@ -1,10 +1,9 @@
 <template>
-  <section class="container-fluid">
-    <h1 class="add-fluid-padding guias-title">Conheça <br> <strong>Nossos Guias</strong></h1>
-    <div class="guias-container">    
-      <GuiaCard class="guia-card" v-for="i in 5" :key="i"/>
-    </div>
-  </section>
+  <div class="guias-container">
+      <router-link class="guia-card" v-for="(guia, index) in guias" :key="index" :to="'/guias/' + guia.slug">
+          <GuiaCard :name="guia.title.rendered" :img-url="featured_images[index]"/>
+      </router-link>
+  </div>
 </template>
 
 <script>
@@ -23,36 +22,46 @@ export default {
   },
   data: function () {
     return {
-      guias: []
+      guias: [],
+      isLoading: false,
+      error: ""
     }
   },
   computed: {
     featured_images: function () {
-      return "teste"
+      const featured_media = this.guias.map( (guia) => {
+        const featured_media = ("wp:featuredmedia" in guia["_embedded"]) ? guia["_embedded"]["wp:featuredmedia"] : null 
+        return featured_media
+      })
+      const img_urls = []
+      featured_media.forEach(element => {
+        let exist_element = element ? element[0].source_url : null
+        img_urls.push(exist_element)
+      });
+      return img_urls
     }
   },
   methods: {
     loadGuias: function () {
-      
+      this.isLoading = true
+      this.error = ""
+
+      this.$http.wp.get('guias?categories=9&_embed').then( (response) => {
+        this.guias = response.data
+        this.isLoading = false
+      }).catch((e) => {
+        this.error = e.toString()
+      })
+
     }
+  },
+  mounted() {
+    this.loadGuias()
   }
 }
 </script>
 
 <style scoped>
-  .guias-title {
-    margin-bottom: 1.2rem;
-    color: var(--orange);
-    text-transform: uppercase;
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: 500;
-  }
-
-  .guias-title strong {
-    padding-left: 2.3rem;
-  }
-
   .guias-container {
     display: flex;
     margin: 0 1rem;

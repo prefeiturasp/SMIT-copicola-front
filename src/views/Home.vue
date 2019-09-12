@@ -1,10 +1,13 @@
 <template>
   <div>
     <TheMainHeader/>
-    <GuiasFeaturedCards class="featured-guias"/>
-    <div class="row btn-container">
-      <BaseButton href="/guias">veja todos os guias</BaseButton>
-    </div>
+    <section id="guias" class="container-fluid">
+      <h1 class="add-fluid-padding title">Conheça <br> <strong>Nossos Guias</strong></h1>
+      <GuiasFeaturedCards class="featured-guias"/>
+      <div class="row btn-container">
+        <BaseButton href="/guias">veja todos os guias</BaseButton>
+      </div>
+    </section>
     <section id="novidades" class="container">
       <h1 class="title">Últimas <br> <strong>Novidades</strong></h1>
       <NovidadesFeaturedCards/>
@@ -53,6 +56,11 @@ export default {
 
 .title strong {
   padding-left: 2.3rem;
+}
+
+#guias .title {
+  color: var(--orange);
+  margin-top: 2rem;
 }
 
 #novidades {
