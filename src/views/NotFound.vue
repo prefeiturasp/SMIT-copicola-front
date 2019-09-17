@@ -4,7 +4,7 @@
     <section class="container">
       <div class="row">
         <div>
-          <img src="../assets/frederico.svg" alt="Personagem frederico, mascote do CopiCola sorrindo">
+          <img src="../assets/img/frederico.svg" alt="Personagem frederico, mascote do CopiCola sorrindo">
           <h1>Página não encontrada.</h1>
           <p>Não encontramos a página que você está procurando. <router-link to="/">Clique aqui</router-link> para voltar para a página inicial.</p>
         </div>
@@ -20,6 +20,9 @@ export default {
     name: "NotFound",
     components: {
         TheMainHeader
+    },
+    created() {
+      this.$store.commit('defineColorSet', 'default')
     }
 }
 </script>

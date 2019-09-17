@@ -11,6 +11,9 @@ export default {
     name: 'Novidade',
     components: {
         TheMainHeader
+    },
+    created() {
+      this.$store.commit('defineColorSet', 'novidades')
     }
 }
 </script>

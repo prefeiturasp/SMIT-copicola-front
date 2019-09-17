@@ -3,14 +3,20 @@
     <TheMainHeader/>
     <div class="container">
       <TheBreadCrumb/>
-      <article>
-        <header>
-          <span>outros</span>
-          <h1>{{ novidade.title.rendered}}</h1>
-          <p class="excerpt" v-html="novidade.excerpt.rendered"> </p>
-        </header>
-        <section id="content" v-html="novidade.content.rendered"></section>
-      </article>
+      <div class="row">
+        <span class="category-icon" :style="{backgroundImage : 'url('+categoryIcon+')'}"></span>
+        <article>
+          <header>
+            <span class="category-name">outros</span>
+            <h1>{{ novidade.title.rendered}}</h1>
+            <p class="excerpt" v-html="novidade.excerpt.rendered"> </p>
+          </header>
+          <section id="content" v-html="novidade.content.rendered"></section>
+        </article>
+        <aside> 
+          barra lateral
+        </aside>
+      </div>
     </div>
   </div>
 </template>
@@ -49,12 +55,61 @@ export default {
         })
       }
     },
+    computed: {
+      categoryIcon: function () {
+        return require('@/assets/img/' + this.$store.state.Novidades.categories[0].iconLarge);
+      }
+    },
     mounted() {
       this.loadNovidade(this.$route.params.novidade_slug)  
+    },
+    created() {
+      this.$store.commit('defineColorSet', 'novidades')
     }
 }
 </script>
 
-<style>
+<style scoped>
+  .row {
+    margin-top: 2rem;
+  }
+
+  article {
+    width: 70%;
+  }
+
+  #content {
+    font-size: 1.3rem;
+  }
+
+  #content >>> p, .excerpt {
+    margin-bottom: 1rem;
+  }
+
+  article header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .excerpt, .category-name {
+    font-size: 1.3rem;
+    color: var(--soft-dark-grey);
+  }
+
+  .category-icon {
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 45px;
+    height: 90px;
+    margin-top: 2rem;
+    margin-right:  1rem;
+  }
+
+  .category-name{
+    font-weight: 300;
+  }
+
 
 </style>

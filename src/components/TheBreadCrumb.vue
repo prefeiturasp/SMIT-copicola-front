@@ -1,10 +1,10 @@
 <template>
   <section id="breadcrumb">
     <span v-for="(item, i) in items" :key="i">
-      <router-link class="breadcrumb-link" :to="item.link">
+      <router-link class="breadcrumb-link" :style="{color: contrastColor}" :to="item.link">
         {{ item.name }}
       </router-link>
-      <span v-if="i != (items.length - 1)">
+      <span :style="{color: contrastColor}" v-if="i != (items.length - 1)">
         >
       </span>
     </span>
@@ -18,13 +18,17 @@ export default {
     return {
       items: this.$route.meta.breadcrumb
     } 
+  },
+  computed: {
+    contrastColor: function() {
+      return this.$store.state.rootCSS.colorSets[this.$store.state.rootCSS.actualColorSet].contrast
+    }
   }
 }
 </script>
 
 <style>
 #breadcrumb, .breadcrumb-link{
-  color: var(--green);
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: lowercase;

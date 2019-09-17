@@ -21,7 +21,7 @@
         <section class="col">
           <h1>Contato:</h1>
           <p>(011).Lab - Laboratório de Inovação em Governo da Prefeitura de São Paulo</p>
-          <p>(11) 2392-2062</p>
+          <a href="mailto:copicola@prefeitura.sp.gov.br">copicola@prefeitura.sp.gov.br</a>
         </section>
       </div>
     </div>
@@ -47,7 +47,7 @@ export default {
   display: block;
   height: 100px;
   width: 100%;
-  background: url('../assets/grey-lines-pattern.svg');
+  background: url('../assets/img/grey-lines-pattern.svg');
   background-repeat: repeat-x;
 }
 

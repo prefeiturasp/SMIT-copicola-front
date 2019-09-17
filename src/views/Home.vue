@@ -12,7 +12,7 @@
       <h1 class="title">Últimas <br> <strong>Novidades</strong></h1>
       <NovidadesFeaturedCards/>
       <div class="row btn-container">
-        <BaseButton>mais novidades</BaseButton>
+        <BaseButton href="/novidades">mais novidades</BaseButton>
       </div>
     </section>
   </div>
@@ -32,6 +32,9 @@ export default {
     GuiasFeaturedCards,
     NovidadesFeaturedCards,
     BaseButton
+  },
+  created() {
+    this.$store.commit('defineColorSet', 'default')
   }
 }
 </script>

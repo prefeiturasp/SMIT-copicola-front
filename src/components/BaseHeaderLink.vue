@@ -10,6 +10,12 @@ export default {
     data: function () {
         return {
             isLinkRoute: (this.$route.path).match(this.goto + "|" + this.goto + ".+") /* matches de path plus the dynamic path */
+            
+        }
+    },
+    computed: {
+        contrastColor: function() {
+            return this.$store.state.rootCSS.colorSets[this.$store.state.rootCSS.actualColorSet].contrast
         }
     }
 }
@@ -25,7 +31,8 @@ export default {
     }
 
     .active {
-        background: var(--green)
+        background: var(--green);
+        
     }
 
     

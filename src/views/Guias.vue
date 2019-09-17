@@ -65,6 +65,9 @@ export default {
   mounted () {
     /* get guias from wp */
     this.loadGuias()    
+  },
+  created() {
+    this.$store.commit('defineColorSet', 'guias')
   }   
 }
 </script>

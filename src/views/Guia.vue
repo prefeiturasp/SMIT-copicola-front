@@ -75,6 +75,9 @@ export default {
   },
   mounted() {
     this.loadPost(this.$route.params.guia_slug)    
+  },
+  created() {
+    this.$store.commit('defineColorSet', 'guias')
   }
 }
 </script>
